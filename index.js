@@ -1,4 +1,4 @@
-var recipes = { pork: "5 lbs", oranges: "2", onion: '1', jalapeno: '1' };
+var recipes = {};
 
 function updateObjectWithKeyAndValue(recipes, ingredient, amount) {
   return Object.assign({}, recipes, {[ingredient]: amount});
